@@ -1,4 +1,4 @@
-const itinerarios = {
+window.itinerarios = {
     ////// Sur Barranqueras
     "ELJY-6Z3Y-N3Q3": [
         { 
