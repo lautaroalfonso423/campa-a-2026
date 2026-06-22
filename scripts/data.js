@@ -7,7 +7,7 @@ window.itinerarios = {
                 {
                 dia:"8 de Julio",
                 actividades:[
-                    {nombre:"Predicación", hora: "09:30", lugar:"Iglesia Central"},
+                    {nombre:"Predicación", hora: "09:30", lugar:"Juna b justo",},
                     {nombre:"Predicación", hora: "06:30", lugar:"Iglesia Central"}
                 ]
                 },
