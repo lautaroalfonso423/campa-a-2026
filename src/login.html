@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Itinerario</title>
-    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Itinerario - Login</title>
+    <link rel="stylesheet" href="../styles/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
-    <nav>
-        <div class="header">
-                <h1>Programa Semanal de Salidas y Reuniones</h1>
-        </div>  
-    </nav>
-    <main>
-        <div class="app" id="seleccionar_reuniones">
+    <main class="login-container">
+        <div id="seleccionar_reuniones" class="login-card">
         
-            <h1>Selecciona una opción para empezar</h1>
-            esto es logn
+            <h1 class="login-title">Iniciar sesión</h1>
+            
+            <div class="form-group">
+                <label class="login-label">Usuario</label>
+                <input type="text" class="login-input" placeholder="Ingresa tu usuario" />
+            </div>
+
+            <div class="form-group">
+                <label class="login-label">Contraseña</label>
+                <input type="password" class="login-input" placeholder="••••••••" />
+            </div>
+
+            <input type="button" class="login-btn" value="Ingresar" />
         
         </div>
     </main>
