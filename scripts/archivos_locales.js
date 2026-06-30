@@ -20,7 +20,23 @@ function cargarCarpeta(rutaArchivos){
         })
 }
 
-window.cargarCarpeta = cargarCarpeta
+
+window.document.addEventListener("DOMContentLoaded", ()=>{
+    const boton = document.getElementById("entre_semana_carpeta")
+
+    if(boton){
+        boton.addEventListener("click", ()=>{
+            cargarCarpeta("/reuniones/entre_semana.html")
+            cargarDatos()
+        })
+    }
+})
+
+
+
+
+
+
 
 
 
