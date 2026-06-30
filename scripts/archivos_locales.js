@@ -20,6 +20,7 @@ function cargarCarpeta(rutaArchivos){
         })
 }
 
+window.cargarCarpeta = cargarCarpeta
 
 
 

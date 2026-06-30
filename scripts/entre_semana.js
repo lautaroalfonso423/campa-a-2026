@@ -251,8 +251,10 @@ function NuestraVidaCristiana(data){
 }
 
 
+window.EsperaDeDatos = EsperaDeDatos
+
 if(document.readyState === "loading"){
-    document.addEventListener("DOMContentLoaded", EsperaDeDatos)
+    document.addEventListener("DOMContentLoaded", window.EsperaDeDatos)
 } else {
-    EsperaDeDatos()
+    window.EsperaDeDatos()
 }
