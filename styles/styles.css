@@ -106,8 +106,9 @@ main {
     }
 }
 
-/* Ajustes para pantallas pequeñas (Móviles) */
+
 @media (max-width: 768px) {
+   
     .header {
         flex-direction: column;
         text-align: center;
@@ -126,10 +127,10 @@ main {
     }
     
     main {
-        padding: 1rem;
+        padding: 0rem;
     }
     
     .app {
-        padding: 2rem 1rem;
+        padding: 0rem 0rem;
     }
 }
